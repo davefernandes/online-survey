@@ -3,6 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  max-width: 295px;
   margin-top: 92px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -13,4 +14,58 @@
   width: 270px;
   height: 158px;
   margin: 0px 52px;
+}
+
+.survey-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 295px;
+  padding: 0px 92px;
+  margin-top: 36px;
+}
+
+.survey-header-cats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 30px;
+  margin: 5px;
+}
+
+.survey-header-progress-bar {
+  width: 40px;
+  height: 10px;
+  background-color: #dbdbdb;
+  margin-bottom: 5px;
+}
+
+.survey-header-progress-bar > span {
+  display: block;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ec5569;
+  width: 0%;
+}
+
+.survey-header-cat-selected {
+  background-color: #f2a7b1;
+}
+
+.survey-header-text {
+  font-size: 12px;
+  line-height: 14px;
+  color: #a7a9b1;
 }

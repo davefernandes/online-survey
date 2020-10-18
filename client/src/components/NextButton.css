@@ -3,6 +3,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  max-width: 295px;
   margin-top: auto;
   margin-bottom: 89px;
   -webkit-box-pack: center;
