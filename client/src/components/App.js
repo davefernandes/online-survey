@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import Survey from './Survey';
 
 const App = () => {
+
   return (
     <div className="container">
       <div className="survey-main">
-        Online Survey
+        <Survey />
       </div>
     </div>
   );

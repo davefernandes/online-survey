@@ -2,7 +2,7 @@
 
 ## Online Survey Application
 
-> This is an online survey application using NodeJS to setup the api for retrieving Data from a MySQL Database and a React FrontEnd.
+> This is an online survey application using NodeJS to setup the api for retrieving Data from a MySQL Database and a React FrontEnd.<br />
 > App has Categories (Diet,Home,Travel,Other).<br />
 > Each Category has their set of Questions.<br />
 > Each Question has a set of choices.

@@ -1,0 +1,34 @@
+.home-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 64px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.home-body-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 24px;
+  color: #000000;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 0px 59px;
+}
+
+.home-body-content {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 0px 34px;
+}

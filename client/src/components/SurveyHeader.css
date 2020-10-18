@@ -1,0 +1,16 @@
+.home-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 92px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.home-logo {
+  width: 270px;
+  height: 158px;
+  margin: 0px 52px;
+}
