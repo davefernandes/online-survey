@@ -3,13 +3,13 @@
 ## Online Survey Application
 
 > This is an online survey application using NodeJS to setup the api for retrieving Data from a MySQL Database and a React FrontEnd.
-> App has Categories (Diet,Home,Travel,Other)
-> Each Category has their set of Questions
-> Each Question has a set of choices
+> App has Categories (Diet,Home,Travel,Other).<br />
+> Each Category has their set of Questions.<br />
+> Each Question has a set of choices.
 
 ### API Usage
 
-> /api/categories - Retrieves the list of all active Categories
+> /api/categories - Retrieves the list of all active Categories <br>
 > /api/categories/1/questions - Retrieves the list of all active Questions and its Choices for Category with id=1
 
 ### `npm start`
